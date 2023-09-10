@@ -1,4 +1,4 @@
-package com.crudSD.model;
+package CRUDSD.Model;
 
 import lombok.*;
 import org.bson.types.ObjectId;
@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "user")
 public class User {
     @Id
-    private ObjectId id;
+    private String id;
     private String name;
     private String email;
 }
