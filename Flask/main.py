@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-client = MongoClient("mongodb+srv://estanis:root@cluster0.nsd3vad.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("LINK ATLAS MONGO DB")
 db = client["CRUD-SD"]
 users = db["user"]
 
